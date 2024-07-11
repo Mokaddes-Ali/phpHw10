@@ -1,8 +1,6 @@
 <?php
-
 class AdminBack{
     private $conn;
-  
     public function __construct(){
     $dbhost = "localhost" ;
       $dbuser = "root"; 
