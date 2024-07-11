@@ -119,12 +119,12 @@ if(isset($_POST['uctg_btn'])) {
 			<div class="form-group">
 				<label>Catagory Name</label>
                 <input hidden type="text" class="form-control" name="id" value="<?php echo $data['id'] ?>" required autocomplete="off">
-				<input type="text" class="form-control" name="category_name" value="<?php echo $data['ctg_name'] ?>" required autocomplete="off">
+				<input type="text" class="form-control" name="category_name" value="<?php echo $data['category_name'] ?>" required autocomplete="off">
 			</div>
 
 			<div class="form-group">
 				<label>Catagory Description</label>
-				<input type="text" class="form-control" name="category_description" value="<?php echo $data['ctg_des'] ?>" required autocomplete="off">
+				<input type="text" class="form-control" name="category_description" value="<?php echo $data['category_description'] ?>" required autocomplete="off">
 			</div>
 
 			
